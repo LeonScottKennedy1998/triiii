@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестировщик</title>
+</head>
+<body class="body">
+    <style>
+        .body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #f4f4f4;
+            background-image: linear-gradient(45deg, #ffeb3b, #ff8a80);
+        }
+
+        .nav {
+            background-color: #ff8a80;
+            padding: 10px 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 12px;
+            border-radius: 4px;
+            transition: background-color 0.3s ease;
+        }
+
+        .div {
+            width: 80%;
+            margin: 20px;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            background-color: #ff8a80;
+            color: #fff;
+            padding: 15px;
+            text-align: center;
+            border-bottom: 1px solid #ff7043;
+            border-radius: 8px 8px 0 0;
+        }
+
+        .main {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+        }
+
+        .section h2 {
+            color: #ff8a80;
+        }
+
+        .aside {
+            padding: 15px;
+            background-color: #fce4ec;
+            border-radius: 0 0 8px 8px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #ff8a80;
+            color: #fff;
+            border-top: 1px solid #ff7043;
+            border-radius: 0 0 8px 8px;
+        }
+    </style>
+
+    <div class="div">
+
+        <nav class="nav">
+            <a href="#about">О профессии</a>
+            <a href="#skills">Навыки</a>
+            <a href="#tools">Инструменты</a>
+            <a href="#asideinfo">Дополнительная информация</a>
+        </nav>
+
+        <header class="header">
+            <h1>Профессия в IT-сфере: Тестировщик</h1>
+        </header>
+
+        <main class="main">
+
+            <section class="section" id="about">
+                <h2>О профессии Тестировщика</h2>
+                <p>Тестировщик - это специалист, который выполняет проверку качества программного обеспечения перед его выпуском на рынок. Он ищет ошибки, проверяет функциональность, безопасность и производительность приложений.</p>
+                <p>Тестирование может быть ручным или автоматизированным. Ручное тестирование включает в себя ручной запуск приложений и проверку их поведения. Автоматизированное тестирование использует специальные инструменты для создания и выполнения тестовых сценариев.</p>
+            </section>
+
+            <section class="section" id="skills">
+                <h2>Необходимые навыки</h2>
+                <ul>
+                    <li>Владение языками программирования, такими как Java, Python или C#</li>
+                    <li>Понимание жизненного цикла разработки ПО</li>
+                    <li>Аналитическое мышление и умение находить ошибки</li>
+                    <li>Умение работать с тестовыми инструментами, такими как Selenium, JMeter и другими</li>
+                </ul>
+            </section>
+
+            <section class="section" id="tools">
+                <h2>Инструменты тестирования</h2>
+                <p>В современном мире тестирования существует множество инструментов, упрощающих и автоматизирующих процессы проверки ПО. Некоторые из них:</p>
+                <ul>
+                    <li><strong>Selenium:</strong> Мощный инструмент для автоматизации веб-тестирования.</li>
+                    <li><strong>JIRA:</strong> Система управления проектами, включая управление багами и задачами.</li>
+                    <li><strong>Postman:</strong> Платформа для тестирования API с возможностью создания и отправки запросов.</li>
+                    <li><strong>TestRail:</strong> Инструмент для управления тестовой документацией и отчетностью.</li>
+                    <li><strong/Appium:</strong> Фреймворк для автоматизации тестирования мобильных приложений.</li>
+                </ul>
+            </section>
+
+        </main>
+
+        <aside class="aside" id = "asideinfo">
+            <h2>Дополнительная информация</h2>
+            <p>Тестировщик - это ключевая фигура в процессе разработки программного обеспечения. Он отвечает за проверку качества и функциональности приложений перед их выпуском.</p>
+            <p>Важные аспекты тестирования включают в себя автоматизацию тестов, написание тестовых сценариев, отслеживание дефектов и сотрудничество с разработчиками для улучшения качества кода.</p>
+            <p>Тестировщики должны иметь хорошие навыки коммуникации, аналитического мышления и умение работать в команде. Они должны быть готовы к постоянному обучению и адаптации к изменениям в технологическом стеке.</p>
+            <p>Современные тенденции в тестировании включают в себя использование искусственного интеллекта и машинного обучения для автоматизации процессов тестирования и анализа больших объемов данных о качестве ПО.</p>
+            <p>Будьте внимательны к требованиям рынка и постоянно совершенствуйте свои навыки, чтобы оставаться востребованным тестировщиком в быстро меняющемся мире информационных технологий.</p>
+        </aside>
+
+        <footer class="footer">
+            <p>&copy; 2024 Все права защищены</p>
+        </footer>
+
+    </div>
+</body>
+</html>
